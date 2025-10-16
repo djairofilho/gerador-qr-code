@@ -1,5 +1,7 @@
 ## Gerador de QR Code
 
+Acesse em https://gerador-qr-code.djairodantas.com
+
 Aplicação React (Vite) que gera QR Codes diretamente no navegador usando a biblioteca [`qrcode`](https://www.npmjs.com/package/qrcode). O layout segue um tema dark com tipografia moderna (Inter) e não depende de um backend para funcionar.
 
 ### Pré-requisitos
