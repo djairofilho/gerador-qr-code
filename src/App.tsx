@@ -6,7 +6,7 @@ type QrResult = {
   dataUrl: string;
 };
 
-const DEFAULT_TEXT = 'Hello from QR frontend';
+const DEFAULT_TEXT = 'https://periodic-table-game.djairodantas.com/';
 
 async function buildQr(text: string): Promise<QrResult> {
   const trimmed = text.trim();
@@ -86,7 +86,7 @@ export default function App() {
         </h1>
 
         <p style={{ marginBottom: '1.5rem', textAlign: 'center', color: '#94a3b8', fontSize: '0.95rem' }}>
-          Digite qualquer texto ou URL e gere um QR instantâneo sem depender do backend.
+          Digite qualquer texto ou URL e gere um QR instantâneo!
         </p>
 
         <label
